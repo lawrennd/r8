@@ -20,7 +20,7 @@
 abstract = {Probabilistic matrix factorization (PMF) is a powerful method for modeling data associ- ated with pairwise relationships, finding use in collaborative filtering, computational bi- ology, and document analysis, among other areas. In many domains, there are additional covariates that can assist in prediction. For example, when modeling movie ratings, we might know when the rating occurred, where the user lives, or what actors appear in the movie. It is diﬃcult, however, to incorporate this side information into the PMF model. We propose a framework for incorporating side information by coupling together multi- ple PMF problems via Gaussian process priors. We replace scalar latent features with func- tions that vary over the covariate space. The GP priors on these functions require them to vary smoothly and share information. We apply this new method to predict the scores of professional basketball games, where side information about the venue and date of the game are relevant for the outcome.},
 author = {Adams, Ryan and Dahl, George and Murray, Iain},
 pages = {1-9},
-title = {Incorporating Side Information in Probabilistic Matrix Factorization with Gaussian Processes},
+title = {Incorporating Side Information in Probabilistic Matrix Factorization with {G}aussian Processes},
 year = {2010}
 }
 
@@ -28,7 +28,7 @@ year = {2010}
 abstract = {We introduce Gaussian Process Topic Mod- els (GPTMs), a new family of topic mod- els which can leverage a kernel among doc- uments while extracting correlated topics. GPTMs can be considered a systematic gen- eralization of the Correlated Topic Models (CTMs) using ideas from Gaussian Process (GP) based embedding. Since GPTMs work with both a topic covariance matrix and a document kernel matrix, learning GPTMs involves a novel component---solving a suit- able Sylvester equation capturing both topic and document dependencies. The eﬃcacy of GPTMs is demonstrated with experiments evaluating the quality of both topic model- ing and embedding.},
 author = {Agovic, Amrudin and Banerjee, Arindam},
 pages = {10-19},
-title = {Gaussian Process Topic Models},
+title = {{G}aussian Process Topic Models},
 year = {2010}
 }
 
@@ -36,7 +36,7 @@ year = {2010}
 abstract = {Topic models have proven to be a useful tool for discovering latent structures in document collections. However, most document collec- tions often come as temporal streams and thus several aspects of the latent structure such as the number of topics, the topics' dis- tribution and popularity are time-evolving. Several models exist that model the evolu- tion of some but not all of the above as- pects. In this paper we introduce infinite dynamic topic models, iDTM, that can ac- commodate the evolution of all the aforemen- tioned aspects. Our model assumes that doc- uments are organized into epochs, where the documents within each epoch are exchange- able but the order between the documents is maintained across epochs. iDTM allows for unbounded number of topics: topics can die or be born at any epoch, and the repre- sentation of each topic can evolve according to a Markovian dynamics. We use iDTM to analyze the birth and evolution of topics in the NIPS community and evaluated the eﬃ- cacy of our model on both simulated and real datasets with favorable outcome.},
 author = {Ahmed, Amr and Xing, Eric},
 pages = {20-29},
-title = {Timeline: A Dynamic Hierarchical Dirichlet Process Model for  Recovering Birth/Death and Evolution of Topics in Text Stream},
+title = {Timeline: A Dynamic Hierarchical {D}irichlet Process Model for  Recovering Birth/Death and Evolution of Topics in Text Stream},
 year = {2010}
 }
 
@@ -44,7 +44,7 @@ year = {2010}
 abstract = {Languages for open-universe probabilistic models (OUPMs) can represent situations with an unknown number of objects and iden- tity uncertainty. While such cases arise in a wide range of important real-world appli- cations, existing general purpose inference methods for OUPMs are far less eﬃcient than those available for more restricted lan- guages and model classes. This paper goes some way to remedying this deficit by in- troducing, and proving correct, a generaliza- tion of Gibbs sampling to partial worlds with possibly varying model structure. Our ap- proach draws on and extends previous generic OUPM inference methods, as well as aux- iliary variable samplers for nonparametric mixture models. It has been implemented for BLOG, a well-known OUPM language. Combined with compile-time optimizations, the resulting algorithm yields very substan- tial speedups over existing methods on sev- eral test cases, and substantially improves the practicality of OUPM languages generally.},
 author = {Arora, Nimar and Sudderth, Erik and Braz, Rodrigo de Salvo and Russell, Stuart},
 pages = {30-39},
-title = {Gibbs sampling in open-universe stochastic languages},
+title = {{G}ibbs sampling in open-universe stochastic languages},
 year = {2010}
 }
 
@@ -76,7 +76,7 @@ year = {2010}
 abstract = {Hierarchical structure is ubiquitous in data across many domains. There are many hier- archical clustering methods, frequently used by domain experts, which strive to discover this structure. However, most of these meth- ods limit discoverable hierarchies to those with binary branching structure. This lim- itation, while computationally convenient, is often undesirable. In this paper we ex- plore a Bayesian hierarchical clustering algo- rithm that can produce trees with arbitrary branching structure at each node, known as rose trees. We interpret these trees as mixtures over partitions of a data set, and use a computationally eﬃcient, greedy ag- glomerative algorithm to find the rose trees which have high marginal likelihood given the data. Lastly, we perform experiments which demonstrate that rose trees are better models of data than the typical binary trees returned by other hierarchical clustering algorithms.},
 author = {Blundell, Charles and Teh, Yee Whye and Heller, Katherine},
 pages = {65-72},
-title = {Bayesian Rose Trees},
+title = {{B}ayesian Rose Trees},
 year = {2010}
 }
 
@@ -148,7 +148,7 @@ year = {2010}
 abstract = {We propose a new point-based method for approximate planning in Dec-POMDP which outperforms the state-of-the-art approaches in terms of solution quality. It uses a heuris- tic estimation of the prior probability of be- liefs to choose a bounded number of policy trees: this choice is formulated as a combina- torial optimisation problem minimising the error induced by pruning.},
 author = {Corona, Gabriel and Charpillet, Fran{\c{c}}ois},
 pages = {143-150},
-title = {Distribution over Beliefs for Memory Bounded Dec-POMDP Planning},
+title = {Distribution over Beliefs for Memory Bounded Dec-{POMDP} Planning},
 year = {2010}
 }
 
@@ -244,7 +244,7 @@ year = {2010}
 abstract = {This paper addresses the problem of sampling from binary distributions with constraints. In particular, it proposes an MCMC method to draw samples from a distribution of the set of all states at a specified distance from some reference state. For example, when the refer- ence state is the vector of zeros, the algorithm can draw samples from a binary distribution with a constraint on the number of active variables, say the number of 1's. We motivate the need for this algorithm with examples from statistical physics and probabilistic in- ference. Unlike previous algorithms proposed to sample from binary distributions with these constraints, the new algorithm allows for large moves in state space and tends to propose them such that they are energetically favourable. The algorithm is demonstrated on three Boltzmann machines of varying dif- ficulty: A ferromagnetic Ising model (with positive potentials), a restricted Boltzmann machine with learned Gabor-like filters as po- tentials, and a challenging three-dimensional spin-glass (with positive and negative poten- tials).},
 author = {Hamze, Firas and de Freitas, Nando},
 pages = {244-251},
-title = {Intracluster Moves for Constrained Discrete-Space MCMC},
+title = {Intracluster Moves for Constrained Discrete-Space {MCMC}},
 year = {2010}
 }
 
@@ -260,7 +260,7 @@ year = {2010}
 abstract = {There is much interest in the Hierarchi- cal Dirichlet Process Hidden Markov Model (HDP-HMM) as a natural Bayesian nonpara- metric extension of the traditional HMM. However, in many settings the HDP-HMM's strict Markovian constraints are undesirable, particularly if we wish to learn or encode non-geometric state durations. We can ex- tend the HDP-HMM to capture such struc- ture by drawing upon explicit-duration semi- Markovianity, which has been developed in the parametric setting to allow construction of highly interpretable models that admit natural prior information on state durations. In this paper we introduce the explicit- duration HDP-HSMM and develop posterior sampling algorithms for eﬃcient inference in both the direct-assignment and weak-limit approximation settings. We demonstrate the utility of the model and our inference meth- ods on synthetic data as well as experiments on a speaker diarization problem and an ex- ample of learning the patterns in Morse code.},
 author = {Johnson, Matthew and Willsky, Alan},
 pages = {260-267},
-title = {The Hierarchical Dirichlet Process Hidden Semi-Markov Model},
+title = {The Hierarchical {D}irichlet Process Hidden Semi-{M}arkov Model},
 year = {2010}
 }
 
@@ -292,7 +292,7 @@ year = {2010}
 abstract = {Exponential family extensions of principal component analysis (EPCA) have received a considerable amount of attention in recent years, demonstrating the growing need for basic modeling tools that do not assume the squared loss or Gaussian distribution. We extend the EPCA model toolbox by present- ing the first exponential family multi-view learning methods of the partial least squares and canonical correlation analysis, based on a unified representation of EPCA as matrix factorization of the natural parameters of ex- ponential family. The models are based on a new family of priors that are generally us- able for all such factorizations. We also in- troduce new inference strategies, and demon- strate how the methods outperform earlier ones when the Gaussianity assumption does not hold.},
 author = {Klami, Arto and Virtanen, Seppo and Kaski, Samuel},
 pages = {293-300},
-title = {Bayesian exponential family projections for coupled data sources},
+title = {{B}ayesian exponential family projections for coupled data sources},
 year = {2010}
 }
 
@@ -356,7 +356,7 @@ year = {2010}
 abstract = {We present a Dirichlet process mixture model over discrete incomplete rankings and study two Gibbs sampling inference techniques for estimating posterior clusterings. The first ap- proach uses a slice sampling subcomponent for estimating cluster parameters. The sec- ond approach marginalizes out several cluster parameters by taking advantage of approx- imations to the conditional posteriors. We empirically demonstrate (1) the effectiveness of this approximation for improving conver- gence, (2) the benefits of the Dirichlet pro- cess model over alternative clustering tech- niques for ranked data, and (3) the applica- bility of the approach to exploring large real- world ranking datasets.},
 author = {Meila, Marina and Chen, Harr},
 pages = {365-374},
-title = {Dirichlet Process Mixtures of Generalized Mallows Models},
+title = {{D}irichlet Process Mixtures of Generalized Mallows Models},
 year = {2010}
 }
 
@@ -372,7 +372,7 @@ year = {2010}
 abstract = {The paper introduces k-bounded MAP infer- ence, a parameterization of MAP inference in Markov logic networks. k-Bounded MAP states are MAP states with at most k ac- tive ground atoms of hidden (non-evidence) predicates. We present a novel delayed col- umn generation algorithm and provide em- pirical evidence that the algorithm eﬃciently computes k-bounded MAP states for mean- ingful real-world graph matching problems. The underlying idea is that, instead of solv- ing one large optimization problem, it is often more eﬃcient to tackle several small ones.},
 author = {Niepert, Mathias},
 pages = {383-390},
-title = {A Delayed Column Generation Strategy for Exact k-Bounded MAP Inference in Markov Logic Networks},
+title = {A Delayed Column Generation Strategy for Exact k-Bounded {MAP} Inference in {M}arkov Logic Networks},
 year = {2010}
 }
 
@@ -388,7 +388,7 @@ year = {2010}
 abstract = {Bayesian structure learning is the NP-hard problem of discovering a Bayesian network that optimally represents a given set of training data. In this paper we study the computational worst-case complexity of exact Bayesian structure learning under graph theoretic restrictions on the super-structure. The super-structure (a concept introduced by Perrier, Imoto, and Miyano, JMLR 2008) is an undi- rected graph that contains as subgraphs the skeletons of solution networks. Our results apply to several variants of score-based Bayesian structure learning where the score of a network decomposes into local scores of its nodes. Results: We show that exact Bayesian structure learning can be carried out in non-uniform polynomial time if the super-structure has bounded treewidth and in linear time if in addition the super-structure has bounded maximum degree. We complement this with a number of hardness results. We show that both restrictions (treewidth and degree) are essential and cannot be dropped without loosing uniform polynomial time tractability (subject to a complexity-theoretic assumption). Furthermore, we show that the restrictions remain essential if we do not search for a globally optimal network but we aim to improve a given network by means of at most k arc additions, arc deletions, or arc reversals (k-neighborhood local search).},
 author = {Ordyniak, Sebastian and Szeider, Stefan},
 pages = {400-407},
-title = {Algorithms and Complexity Results for Exact Bayesian Structure Learning},
+title = {Algorithms and Complexity Results for Exact {B}ayesian Structure Learning},
 year = {2010}
 }
 
@@ -444,7 +444,7 @@ year = {2010}
 abstract = {Gaussian processes (GPs) provide a probabilistic nonparametric representation of functions in re- gression, classification, and other problems. Un- fortunately, exact learning with GPs is intractable for large datasets. A variety of approximate GP methods have been proposed that essentially map the large dataset into a small set of basis points. Among them, two state-of-the-art methods are sparse pseudo-input Gaussian process (SPGP) (Snelson and Ghahramani, 2006) and variable- sigma GP (VSGP) Walder et al. (2008), which generalizes SPGP and allows each basis point to have its own length scale. However, VSGP was only derived for regression. In this paper, we pro- pose a new sparse GP framework that uses expec- tation propagation to directly approximate gen- eral GP likelihoods using a sparse and smooth basis. It includes both SPGP and VSGP for re- gression as special cases. Plus as an EP algo- rithm, it inherits the ability to process data on- line. As a particular choice of approximating family, we blur each basis point with a Gaus- sian distribution that has a full covariance ma- trix representing the data distribution around that basis point; as a result, we can summarize local data manifold information with a small set of ba- sis points. Our experiments demonstrate that this framework outperforms previous GP classifica- tion methods on benchmark datasets in terms of minimizing divergence to the non-sparse GP so- lution as well as lower misclassification rate.},
 author = {Qi, Alan and Abdel-Gawad, Ahmed and Minka, Thomas},
 pages = {457-464},
-title = {Sparse-posterior Gaussian Processes for general likelihoods},
+title = {Sparse-posterior {G}aussian Processes for general likelihoods},
 year = {2010}
 }
 
@@ -468,7 +468,7 @@ year = {2010}
 abstract = {In many fields observations are performed ir- regularly along time, due to either measure- ment limitations or lack of a constant im- manent rate. While discrete-time Markov models (as Dynamic Bayesian Networks) in- troduce either ineﬃcient computation or an information loss to reasoning about such processes, continuous-time Markov models assume either a discrete state space (as Continuous-Time Bayesian Networks), or a flat continuous state space (as stochastic dif- ferential equations). To address these prob- lems, we present a new modeling class called Irregular-Time Bayesian Networks (ITBNs), generalizing Dynamic Bayesian Networks, al- lowing substantially more compact represen- tations, and increasing the expressivity of the temporal dynamics. In addition, a globally optimal solution is guaranteed when learn- ing temporal systems, provided that they are fully observed at the same irregularly spaced time-points, and a semiparametric subclass of ITBNs is introduced to allow further adap- tation to the irregular nature of the available data.},
 author = {Ramati, Michael and Shahar, Yuval},
 pages = {483-490},
-title = {Irregular-Time Bayesian Networks},
+title = {Irregular-Time {B}ayesian Networks},
 year = {2010}
 }
 
@@ -524,7 +524,7 @@ year = {2010}
 abstract = {In a variety of disciplines such as social sci- ences, psychology, medicine and economics, the recorded data are considered to be noisy mea- surements of latent variables connected by some causal structure. This corresponds to a fam- ily of graphical models known as the structural equation model with latent variables. While linear non-Gaussian variants have been well- studied, inference in nonparametric structural equation models is still underdeveloped. We in- troduce a sparse Gaussian process parameteriza- tion that defines a non-linear structure connect- ing latent variables, unlike common formulations of Gaussian process latent variable models. The sparse parameterization is given a full Bayesian treatment without compromising Markov chain Monte Carlo efficiency. We compare the stabil- ity of the sampling procedure and the predictive ability of the model against the current practice.},
 author = {Silva, Ricardo and Gramacy, Robert},
 pages = {536-544},
-title = {Gaussian Process Structural Equation Models with Latent Variables},
+title = {{G}aussian Process Structural Equation Models with Latent Variables},
 year = {2010}
 }
 
@@ -532,7 +532,7 @@ year = {2010}
 abstract = {We present a probabilistic model of events in continuous time in which each event triggers a Poisson process of successor events. The ensemble of observed events is thereby mod- eled as a superposition of Poisson processes. Eﬃcient inference is feasible under this model with an EM algorithm. Moreover, the EM al- gorithm can be implemented as a distributed algorithm, permitting the model to be ap- plied to very large datasets. We apply these techniques to the modeling of Twitter mes- sages and the revision history of Wikipedia.},
 author = {Simma, Aleksandr and Jordan, Michael},
 pages = {545-554},
-title = {Modeling Events with Cascades of Poisson Processes},
+title = {Modeling Events with Cascades of {P}oisson Processes},
 year = {2010}
 }
 
@@ -540,7 +540,7 @@ year = {2010}
 abstract = {Relational learning can be used to aug- ment one data source with other corre- lated sources of information, to improve predictive accuracy. We frame a large class of relational learning problems as ma- trix factorization problems, and propose a hierarchical Bayesian model. Train- ing our Bayesian model using random-walk Metropolis-Hastings is impractically slow, and so we develop a block Metropolis- Hastings sampler which uses the gradient and Hessian of the likelihood to dynamically tune the proposal. We demonstrate that a predic- tive model of brain response to stimuli can be improved by augmenting it with side in- formation about the stimuli.},
 author = {Singh, Ajit and Gordon, Geoffrey},
 pages = {555-562},
-title = {A Bayesian Matrix Factorization Model for Relational Data},
+title = {A {B}ayesian Matrix Factorization Model for Relational Data},
 year = {2010}
 }
 
@@ -548,7 +548,7 @@ year = {2010}
 abstract = {The explore--exploit dilemma is one of the central challenges in Reinforcement Learn- ing (RL). Bayesian RL solves the dilemma by providing the agent with information in the form of a prior distribution over envi- ronments; however, full Bayesian planning is intractable. Planning with the mean MDP is a common myopic approximation of Bayesian planning. We derive a novel reward bonus that is a function of the posterior distribution over environments, which, when added to the reward in planning with the mean MDP, re- sults in an agent which explores eﬃciently and effectively. Although our method is similar to existing methods when given an uninfor- mative or unstructured prior, unlike existing methods, our method can exploit structured priors. We prove that our method results in a polynomial sample complexity and empirically demonstrate its advantages in a structured exploration task.},
 author = {Sorg, Jonathan and Singh, Satinder and Lewis, Richard},
 pages = {563-570},
-title = {Variance-Based Rewards for Approximate Bayesian Reinforcement Learning},
+title = {Variance-Based Rewards for Approximate {B}ayesian Reinforcement Learning},
 year = {2010}
 }
 
@@ -572,7 +572,7 @@ year = {2010}
 abstract = {Monte-Carlo Tree Search (MCTS) meth- ods are drawing great interest after yield- ing breakthrough results in computer Go. This paper proposes a Bayesian approach to MCTS that is inspired by distribution- free approaches such as UCT [13], yet sig- nificantly differs in important respects. The Bayesian framework allows potentially much more accurate (Bayes-optimal) estimation of node values and node uncertainties from a limited number of simulation trials. We fur- ther propose propagating inference in the tree via fast analytic Gaussian approxima- tion methods: this can make the overhead of Bayesian inference manageable in domains such as Go, while preserving high accuracy of expected-value estimates. We find substan- tial empirical outperformance of UCT in an idealized bandit-tree test environment, where we can obtain valuable insights by compar- ing with known ground truth. Additionally we rigorously prove on-policy and off-policy convergence of the proposed methods.},
 author = {Tesauro, Gerald and Rajan, VT and Segal, Richard},
 pages = {587-595},
-title = {Bayesian Inference in Monte-Carlo Tree Search},
+title = {{B}ayesian Inference in {M}onte-{C}arlo Tree Search},
 year = {2010}
 }
 
@@ -580,7 +580,7 @@ year = {2010}
 abstract = {We study the problem of learning Bayesian net- work structures from data. We develop an al- gorithm for finding the k-best Bayesian net- work structures. We propose to compute the posterior probabilities of hypotheses of interest by Bayesian model averaging over the k-best Bayesian networks. We present empirical results on structural discovery over several real and syn- thetic data sets and show that the method outper- forms the model selection method and the state- of-the-art MCMC methods.},
 author = {Tian, Jin and He, Ru and Ram, Lavanya},
 pages = {596-604},
-title = {Bayesian Model Averaging Using the k-best Bayesian Network Structures},
+title = {{B}ayesian Model Averaging Using the k-best {B}ayesian Network Structures},
 year = {2010}
 }
 
@@ -604,7 +604,7 @@ year = {2010}
 abstract = {Gaussian processes (GP) are attractive build- ing blocks for many probabilistic models. Their drawbacks, however, are the rapidly in- creasing inference time and memory require- ment alongside increasing data. The prob- lem can be alleviated with compactly sup- ported (CS) covariance functions, which pro- duce sparse covariance matrices that are fast in computations and cheap to store. CS func- tions have previously been used in GP regres- sion but here the focus is in a classification problem. This brings new challenges since the posterior inference has to be done approx- imately. We utilize the expectation propa- gation algorithm and show how its standard implementation has to be modified to obtain computational benefits from the sparse co- variance matrices. We study four CS covari- ance functions and show that they may lead to substantial speed up in the inference time compared to globally supported functions.},
 author = {Vanhatalo, Jarno and Vehtari, Aki},
 pages = {622-630},
-title = {Speeding up the binary Gaussian process classification},
+title = {Speeding up the binary {G}aussian process classification},
 year = {2010}
 }
 
@@ -692,7 +692,7 @@ year = {2010}
 abstract = {In nonlinear latent variable models or dy- namic models, if we consider the latent vari- ables as confounders (common causes), the noise dependencies imply further relations between the observed variables. Such models are then closely related to causal discovery in the presence of nonlinear confounders, which is a challenging problem. However, generally in such models the observation noise is as- sumed to be independent across data dimen- sions, and consequently the noise dependen- cies are ignored. In this paper we focus on the Gaussian process latent variable model (GPLVM), from which we develop an ex- tended model called invariant GPLVM (IG- PLVM), which can adapt to arbitrary noise covariances. With the Gaussian process prior put on a particular transformation of the la- tent nonlinear functions, instead of the origi- nal ones, the algorithm for IGPLVM involves almost the same computational loads as that for the original GPLVM. Besides its poten- tial application in causal discovery, IGPLVM has the advantage that its estimated latent nonlinear manifold is invariant to any nonsin- gular linear transformation of the data. Ex- perimental results on both synthetic and real- world data show its encouraging performance in nonlinear manifold learning and causal dis- covery.},
 author = {Zhang, Kun and Sch{\"o}lkopf, Bernhard and Janzing, Dominik},
 pages = {718-725},
-title = {Invariant Gaussian Process Latent Variable Models and Application in Causal Discovery},
+title = {Invariant {G}aussian Process Latent Variable Models and Application in Causal Discovery},
 year = {2010}
 }
 
@@ -700,7 +700,7 @@ year = {2010}
 abstract = {Graphical models are widely used in scien- tific and engineering research to represent conditional independence structures between random variables. In many controlled ex- periments, environmental changes or exter- nal stimuli can often alter the conditional dependence between the random variables, and potentially produce significant structural changes in the corresponding graphical mod- els. Therefore, it is of great importance to be able to detect such structural changes from data, so as to gain novel insights into where and how the structural changes take place and help the system adapt to the new environment. Here we report an effec- tive learning strategy to extract structural changes in Gaussian graphical model using ℓ1-regularization based convex optimization. We discuss the properties of the problem for- mulation and introduce an eﬃcient imple- mentation by the block coordinate descent algorithm. We demonstrate the principle of the approach on a numerical simulation ex- periment, and we then apply the algorithm to the modeling of gene regulatory networks un- der different conditions and obtain promising yet biologically plausible results.},
 author = {Zhang, Bai and Wang, Yue},
 pages = {726-733},
-title = {Learning Structural Changes of Gaussian Graphical Models in Controlled Experiments},
+title = {Learning Structural Changes of {G}aussian Graphical Models in Controlled Experiments},
 year = {2010}
 }
 
